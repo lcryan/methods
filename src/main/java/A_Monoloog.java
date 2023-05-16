@@ -5,10 +5,10 @@ public class A_Monoloog {
         // Een conversatie bestaat uit een `greeting`, wat `smallTalk` en een `goodbye`
         printGreeting();
         printWelcomeMessage();
-        System.out.println("How about this weather?");
-        System.out.println("And did you see that random program on that random channel?");
-        System.out.println("Thank you for a wonderful conversation!");
-        System.out.println("Cya");
+        printQuestionOne();
+        printQuestionTwo();
+        printCompliment();
+        printGoodbye();
     }
 
     public static void printGreeting() {
@@ -19,4 +19,19 @@ public class A_Monoloog {
         System.out.println("Welcome to a wonderful conversation!");
     }
 
+    public static void printQuestionOne() {
+        System.out.println("How about this weather?");
+    }
+
+    public static void printQuestionTwo() {
+        System.out.println("And did you see that random program on that random channel?");
+    }
+
+    public static void printCompliment() {
+        System.out.println("And did you see that random program on that random channel?");
+    }
+
+    public static void printGoodbye() {
+        System.out.println("Cya");
+    }
 }
