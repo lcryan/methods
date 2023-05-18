@@ -3,14 +3,35 @@ public class A_Monoloog {
     public static void main(String[] args) {
         // Groepeer de statement in hun eigen method, en roep de method aan vanuit main. De code blijft functioneel hetzelfde doen.
         // Een conversatie bestaat uit een `greeting`, wat `smallTalk` en een `goodbye`
-        System.out.println("Hey");
-        System.out.println("Welcome to this wonderful conversation");
-        System.out.println("How about this weather?");
-        System.out.println("And did you see that random program on that random channel?");
-        System.out.println("Thank you for a wonderful conversation!");
-        System.out.println("Cya");
+        printGreeting();
+        printWelcomeMessage();
+        printQuestionOne();
+        printQuestionTwo();
+        printCompliment();
+        printGoodbye();
     }
 
-    // nieuwe methods komen hier
+    public static void printGreeting() {
+        System.out.println("Hey!");
+    }
 
+    public static void printWelcomeMessage() {
+        System.out.println("Welcome to a wonderful conversation!");
+    }
+
+    public static void printQuestionOne() {
+        System.out.println("How about this weather?");
+    }
+
+    public static void printQuestionTwo() {
+        System.out.println("And did you see that random program on that random channel?");
+    }
+
+    public static void printCompliment() {
+        System.out.println("And did you see that random program on that random channel?");
+    }
+
+    public static void printGoodbye() {
+        System.out.println("Cya");
+    }
 }
